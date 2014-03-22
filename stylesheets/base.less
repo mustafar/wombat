@@ -1,0 +1,181 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: #2D2D2D;
+}
+
+.comment {
+  font-style: italic;
+  color: #99968B;
+}
+
+.keyword.other.directive {
+  font-weight: bold;
+}
+
+.keyword.other.directive.line-number {
+  text-decoration: underline;
+}
+
+.constant.character {
+  font-style: italic;
+  color: #95E454;
+}
+
+.string {
+  font-style: italic;
+  color: #95E454;
+}
+
+.constant.numeric {
+  color: #E5786D;
+}
+
+.constant.language {
+  color: #E5786D;
+}
+
+.constant.character, .constant.other {
+  color: #E5786D;
+}
+
+.variable.parameter, .variable.other {
+  color: #CAE682;
+}
+
+.keyword {
+  color: #8AC6F2;
+}
+
+.entity.name.module, .support.other.module {
+  color: #8AC6F2;
+}
+
+.keyword.operator {
+  color: #F6F3E8;
+}
+
+.source.ocaml .keyword.operator.symbol.infix.floating-point {
+  text-decoration: underline;
+}
+
+.source.ocaml .keyword.operator.symbol.prefix.floating-point {
+  text-decoration: underline;
+}
+
+.storage.type {
+  color: #CAE682;
+}
+
+.entity.name.class.variant {
+  color: #CAE682;
+}
+
+.storage {
+  color: #CAE682;
+}
+
+.entity.name.type {
+  color: #CAE682;
+}
+
+.entity.other.inherited-class {
+  color: #CAE682;
+}
+
+.entity.name.function {
+  color: #CAE682;
+}
+
+.storage.type.user-defined {
+  color: #CAE682;
+}
+
+.entity.name.type.class.type {
+  color: #CAE682;
+  background-color: #242424;
+}
+
+.variable.parameter {
+  font-style: italic;
+}
+
+.entity.name.tag {
+  color: #8AC6F2;
+}
+
+.punctuation.definition.tag {
+  color: #CAE682;
+}
+
+.entity.other.attribute-name {
+  color: #CAE682;
+}
+
+.support.function {
+  color: #CAE682;
+}
+
+.support.constant {
+  color: #E5786D;
+}
+
+.support.type, .support.class {
+  color: #CAE682;
+}
+
+.support.variable {
+  color: #CAE682;
+}
+
+.invalid {
+  background-color: #E62424;
+}
