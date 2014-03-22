@@ -4,4 +4,5 @@
 * Converted from the [TextMate](https://gist.github.com/305111/c6c7a1e1e598d741a4848c5445d2012603cedcd3)
 theme using the [TextMate bundle converter](http://atom.io/docs/latest/converting-a-text-mate-theme).
 
-![wombat screenshot](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+## Screenshot
+![wombat screenshot](https://f.cloud.github.com/assets/645112/2491057/8118687a-b1d8-11e3-845e-352afaaafc56.png)
