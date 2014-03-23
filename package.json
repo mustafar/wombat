@@ -1,7 +1,7 @@
 {
   "name": "wombat",
   "theme": "syntax",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "description": "Wombat Atom syntax theme.",
   "repository": "https://github.com/mustafar/wombat",
