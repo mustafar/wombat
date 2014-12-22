@@ -8,6 +8,7 @@
 .editor .gutter {
   background-color: @syntax-gutter-background-color;
   color: @syntax-gutter-text-color;
+  z-index: 10;
 }
 
 .editor .gutter .line-number.cursor-line {
@@ -38,6 +39,7 @@
 
 .editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
   background-color: #2D2D2D;
+  z-index: -10;
 }
 
 .comment {
