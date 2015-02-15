@@ -8,6 +8,7 @@
 .atom-text-editor .gutter {
   background-color: @syntax-gutter-background-color;
   color: @syntax-gutter-text-color;
+  z-index: 10;
 }
 
 .atom-text-editor .gutter .line-number.cursor-line {
@@ -38,6 +39,7 @@
 
 .atom-text-editor.is-focused .line-number.cursor-line-no-selection, .atom-text-editor.is-focused .line.cursor-line {
   background-color: #2D2D2D;
+  z-index: -10;
 }
 
 .comment {
@@ -129,7 +131,6 @@
 
 .entity.name.type.class.type {
   color: #CAE682;
-  background-color: #242424;
 }
 
 .variable.parameter {
